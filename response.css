@@ -1,0 +1,112 @@
+@media only screen and (max-width: 340px){
+
+
+    .pads{
+        padding-bottom: 350px;
+        background-color: lightblue;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+
+    }
+    header h1 {
+        margin: 150px 0 30px 0;
+        text-align: center;
+        font-size: 50px;
+        padding-right: 20px;
+    
+    
+    }
+    header p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    @keyframes myfirst {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    @keyframes example {
+        0%   {background-color: orange;}
+        25%  {background-color: white;}
+        50% {background-color: green;}
+      }
+      .pads> div{
+        height: 50px;
+        width: 10px;
+        justify-content:space-around;
+        flex: 2;
+    
+    }
+}
+
+@media only screen and (max-width: 792px){
+    .pads{
+        padding-bottom: 350px;
+        background-color: lightblue;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+
+    }
+    header h1 {
+        margin: 150px 0 30px 0;
+        text-align: center;
+        font-size: 10px;
+        padding-right: 30px;
+    }
+    
+    header p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    @keyframes example {
+        0%   {background-color: orange;}
+        25%  {background-color: white;}
+        50% {background-color: green;}
+      }
+      .pads> div{
+        flex: 1;
+        padding-bottom: 100px;
+    
+    }
+    
+
+}
+
+@media only screen and (max-width: 1910px){
+    .pads{
+        padding-bottom: 130px;
+        background-color: lightblue;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+
+    }
+    @keyframes example {
+        0%   {background-color: orange;}
+        25%  {background-color: white;}
+        50% {background-color: green;}
+      }
+      header h1 {
+        margin: 150px 0 30px 0;
+        text-align: center;
+        font-size: 75px;
+        padding-right: 20px;
+        font-weight: bold;
+    }
+    
+    header p{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+}
